@@ -10,6 +10,7 @@ desc: |
   内置 76 张希腊字母 / 符号图，新增字母只需往 images/ 目录丢 PNG。
   图像处理全部在本地用 Pillow 完成，不依赖任何外部服务。
 author: TrashCat8
+repo: https://github.com/TrashCat8/astrbot_plugin_osugreek
 version: 1.2.1
 astrbot_version: ">=4.9.2"
 support_platforms:

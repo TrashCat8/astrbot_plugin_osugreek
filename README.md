@@ -138,6 +138,13 @@ v1 ... v14
 
 - 新增 GIF 动图支持：输入动图逐帧处理，静态图可生成故障循环动画。
 
+## 素材来源与许可
+
+- `images/` 下的 76 张 PNG 均来自上游 MIT 仓库 [nonebot-plugin-osugreek](https://github.com/YakumoZn/nonebot-plugin-osugreek)，随原仓库分发，版权归原作者 ChewYakuwo 所有；本插件只做了格式适配，未改动素材内容。
+- 若其中有素材的版权不属于上游作者，请通过仓库 Issue 告知，我会立即删除对应文件。
+- 素材未做有损压缩，仓库打包（不含 `.git`）约 14.8 MB，低于插件商店 16 MB 的压缩包上限。
+- `logo.png` 为插件封面，取自作者自备的表情图。
+
 ## 许可
 
 MIT，见 [LICENSE](LICENSE)。原项目版权归 ChewYakuwo 所有。
