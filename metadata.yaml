@@ -1,0 +1,20 @@
+name: astrbot_plugin_osugreek
+display_name: 4K 希腊字母背景
+short_desc: 在图片中央贴上 4K 希腊字母并加色散/故障效果，支持 GIF 动图，一键生成 osu!mania 练习图背景
+desc: |
+  移植自 NoneBot2 插件 nonebot-plugin-osugreek。
+  对附带或引用的图片做 RGB 色散与可选的故障特效（错位、噪点、扫描线、模糊），
+  再把 4K 希腊字母等比放大后居中叠加，生成 osu!mania 风格的练习图背景。
+  色散强度、故障强度、字母缩放系数都能在指令里临时指定。
+  支持动图：输入 GIF 会逐帧处理并输出 GIF，静态图加 gif 参数也能生成故障循环动画。
+  内置 76 张希腊字母 / 符号图，新增字母只需往 images/ 目录丢 PNG。
+  图像处理全部在本地用 Pillow 完成，不依赖任何外部服务。
+author: TrashCat8
+version: 1.2.1
+astrbot_version: ">=4.9.2"
+support_platforms:
+  - aiocqhttp
+tags:
+  - 娱乐
+  - 图片
+  - osu

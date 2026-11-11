@@ -1,0 +1,50 @@
+{
+  "chromatic_intensity": {
+    "description": "默认色散强度",
+    "type": "int",
+    "hint": "RGB 通道分离程度，范围 1-20。指令里也可以临时指定，如 /osugreek alpha 8",
+    "default": 4
+  },
+  "glitch_intensity": {
+    "description": "默认故障强度",
+    "type": "int",
+    "hint": "0 表示不加故障效果，范围 0-5。指令里也可以临时指定，如 /osugreek alpha 4 3",
+    "default": 0
+  },
+  "letter_scale": {
+    "description": "默认希腊字母缩放系数",
+    "type": "float",
+    "hint": "范围 0.1-3.0，1.0 为默认大小，调大时字母会变大（字母本体不会超出画布）。指令里也可以临时指定，如 /osugreek alpha 4 0 0.6",
+    "default": 1.0
+  },
+  "max_input_side": {
+    "description": "输入图片长边上限（像素）",
+    "type": "int",
+    "hint": "超过该值的图片会先等比缩小再处理，防止超大图吃满内存；0 表示不限制",
+    "default": 4096
+  },
+  "gif_frames": {
+    "description": "静态图生成动图时的帧数",
+    "type": "int",
+    "hint": "范围 2-30。帧数越多动画越顺，体积和耗时也线性增加；指令里填 gif 才会生成动图",
+    "default": 12
+  },
+  "gif_duration": {
+    "description": "动图每帧时长（毫秒）",
+    "type": "int",
+    "hint": "范围 20-500。100 毫秒约等于每秒 10 帧；输入动图时沿用原图节奏",
+    "default": 100
+  },
+  "gif_max_side": {
+    "description": "动图长边上限（像素）",
+    "type": "int",
+    "hint": "范围 100-2000。动图比静态图更吃体积，默认 800 兼顾清晰度和发送速度",
+    "default": 800
+  },
+  "gif_max_frames": {
+    "description": "输入动图最多处理的帧数",
+    "type": "int",
+    "hint": "范围 2-60。原图帧数超过该值时等间隔抽帧，并等比拉长每帧时长以保持总时长",
+    "default": 24
+  }
+}
