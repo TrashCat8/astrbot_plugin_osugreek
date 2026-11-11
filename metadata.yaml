@@ -9,6 +9,7 @@ desc: |
   支持动图：输入 GIF 会逐帧处理并输出 GIF，静态图加 gif 参数也能生成故障循环动画。
   内置 76 张希腊字母 / 符号图，新增字母只需往 images/ 目录丢 PNG。
   图像处理全部在本地用 Pillow 完成，不依赖任何外部服务。
+  本插件由 AI 辅助编写（Claude 协助）、作者验收，详见 README 的「AI 辅助创作说明」。
 author: TrashCat8
 repo: https://github.com/TrashCat8/astrbot_plugin_osugreek
 version: 1.2.1
