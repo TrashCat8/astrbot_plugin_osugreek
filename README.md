@@ -1,5 +1,7 @@
 # astrbot_plugin_osugreek
 
+<p align="center"><img src="logo.png" width="160" alt="插件封面"></p>
+
 在图片中央贴上神秘的 4K 希腊字母，顺便加点色散和故障效果 —— 批量生产 osu!mania 练习图背景。
 
 本插件移植自 NoneBot2 插件 [nonebot-plugin-osugreek](https://github.com/YakumoZn/nonebot-plugin-osugreek)（MIT），图像处理逻辑与原版一致，只重写了 AstrBot 的入口层。
